@@ -1,7 +1,7 @@
 # k9kicks
 The premier site for puppy paw fashion!
 
-<a href="https://k9kicks.herokuapp.com/">
+<a href="https://shop-k9kicks.herokuapp.com">
     <img src="./src/images/home.png" target_blank />
 </a>
 
