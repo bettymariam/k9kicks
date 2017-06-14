@@ -7,7 +7,34 @@ The premier site for puppy paw fashion!
 
 
 # setup
-To run k9kicks locally, fork and/or clone this repo and run `npm install`. You will need to run both the Express server (back-end) and React server (front-tend). Express can be started with `npm run start` and React can be started with `npm run react`.  
+To run k9kicks locally:
+Fork and clone
+Run NPM Install
+Create a postgresql database called
+  ```
+  createdb altruistic_dev
+  ```
+Run migration files:
+  ```
+  npm run knex migrate:latest
+  ```
+Run seed files:
+  ```
+  npm run knex seed:run
+  ```
+Start server
+  Express can be started with :
+  ```
+  npm run start
+  ```
+  React can be started with :
+  ```
+  npm run react
+  ```
+In a browser navigate to:
+  ```
+  localhost:3000
+  ```
 
 Go fetch some great stuff!
 
@@ -17,7 +44,7 @@ k9kicks was created by Betty Chempananical, Erica Rottman, and Amber Murray. The
 
 
 # tech stack
-API: Postgres, Knex  
+Database: Postgres, Knex  
 Back-end Server: Express / Node.js  
 Overall: ES6, JSX (yep - we did that!)  
 Front-End: React, React-Bootstrap, HTML5, CSS3, and our good friend JavaScript  
