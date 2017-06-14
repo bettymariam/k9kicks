@@ -25,17 +25,17 @@ To run k9kicks locally :
   ```
   npm run knex seed:run
   ```
-6. Start server
+6. Start the servers
 
-  Express server can be started with :
+  * Express server can be started with :
   ```
   npm run start
   ```
-  React server can be started with :
+  * React server can be started with :
   ```
   npm run react
   ```
-In a browser navigate to:
+7. In a browser navigate to:
   ```
   localhost:3000
   ```
