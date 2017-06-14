@@ -7,27 +7,31 @@ The premier site for puppy paw fashion!
 
 
 # setup
-To run k9kicks locally:
-Fork and clone
-Run NPM Install
-Create a postgresql database called
+To run k9kicks locally :
+
+1. Fork and clone the repo.
+
+2. Run NPM Install
+
+3. Create a postgresql database called k9kicks
   ```
-  createdb altruistic_dev
+  createdb k9kicks
   ```
-Run migration files:
+4. Run migration files
   ```
   npm run knex migrate:latest
   ```
-Run seed files:
+5. Run seed files
   ```
   npm run knex seed:run
   ```
-Start server
-  Express can be started with :
+6. Start server
+
+  Express server can be started with :
   ```
   npm run start
   ```
-  React can be started with :
+  React server can be started with :
   ```
   npm run react
   ```
